@@ -17,7 +17,7 @@ public class GmailExample {
 //implicitly wait
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-		WebDriverWait wait = new WebDriverWait(driver, 15);
+		WebDriverWait wait = new WebDriverWait(driver, 25);
 
 		WebElement ele1 = driver.findElement(By.id("identifierId"));
 		ele1.sendKeys("kalyan");
